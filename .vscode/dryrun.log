@@ -1,0 +1,15 @@
+make -f /home/user/Documents/projects/operator/Makefile --dry-run --keep-going --print-directory
+make: Entering directory '/home/user/Documents/projects/mactelnet'
+ 
+/home/user/Documents/projects/operator/Makefile:360: buildtools/app.make: No such file or directory
+make: *** No rule to make target 'buildtools/app.make'.
+make: Failed to remake makefile 'buildtools/app.make'.
+
+fatal: not a git repository (or any of the parent directories): .git
+
+(	echo "#define BUILDINFO_TIME_INTERNAL_ 1678117779"; \
+	echo "#define BUILDINFO_TIME_STR_INTERNAL_ \"1678117779\""; \
+	echo "#define BUILDINFO_COMMIT_INTERNAL_ \"\"" \
+) > buildinfo_internal.h
+make: Leaving directory '/home/user/Documents/projects/mactelnet'
+ 
