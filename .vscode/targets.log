@@ -1,176 +1,94 @@
 make all -f /home/user/Documents/projects/operator/Makefile --print-data-base --no-builtin-variables --no-builtin-rules --question
 /home/user/Documents/projects/operator/Makefile:360: buildtools/app.make: No such file or directory
-
 make: *** No rule to make target 'buildtools/app.make'.  Stop.
 
 # GNU Make 4.2.1
- 
 # Built for x86_64-pc-linux-gnu
- 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
- 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
- 
 # This is free software: you are free to change and redistribute it.
- 
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
- 
-# Make data base, printed on Mon Mar  6 17:49:39 2023
- 
+# Make data base, printed on Tue Mar  7 14:53:38 2023
 
 # Variables
- 
 
- 
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
- 
 # automatic
- 
 ?F = $(notdir $?)
- 
 # environment
- 
 DESKTOP_SESSION = ubuntu
- 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 230)
- 
 CXXFLAGS_ubuntu_focal = -D_UBUNTU_FOCAL_ `pkg-config webkit2gtk-4.0 --cflags`
- 
 # default
- 
 .SHELLFLAGS := -c
- 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 186)
- 
 SOURCES_ubuntu = view/x11configure.cpp view/gui/gui.cpp view/gui/binding.cpp view/gui/operatorview.cpp view/gui/startview.cpp view/gui/scriptselectionview.cpp view/gui/executionview.cpp view/gui/instructionview.cpp view/gui/configview.cpp view/gui/logview.cpp view/gui/problemreportview.cpp view/gui/noticeview.cpp view/gui/renderer/configcellrenderer.cpp view/tui/telnethost/libtelnet/libtelnet.c view/tui/telnethost/telnethost.cpp view/tui/ui/screen.cpp view/tui/tui.cpp view/tui/binding.cpp view/tui/operatorview.cpp view/tui/startview.cpp view/tui/scriptselectionview.cpp view/tui/executionview.cpp view/tui/dummyview.cpp
- 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 214)
- 
 CXXFLAGS_ubuntu = -D_LINUX_ -D_UBUNTU_ -DRAPIDJSON_USE_SYSTEM_STDLIB `pkg-config gtkmm-3.0 --cflags` `pkg-config x11 --cflags` `pkg-config xrandr --cflags`
- 
 # environment
- 
 XDG_SESSION_CLASS = user
- 
 # environment
- 
 XDG_SESSION_TYPE = x11
- 
 # automatic
- 
 ?D = $(patsubst %/,%,$(dir $?))
- 
 # automatic
- 
 @D = $(patsubst %/,%,$(dir $@))
- 
 # environment
- 
 XAUTHORITY = /home/user/.Xauthority
- 
 # environment
- 
 GDMSESSION = ubuntu
- 
 # environment
- 
 XMODIFIERS = @im=ibus
- 
 # makefile
- 
-CURDIR := /home/user/Documents/projects/mactelnet
- 
+CURDIR := /home/user/Documents/projects/mac_telnet
 # makefile
- 
 SHELL = /bin/sh
- 
 # environment
- 
 GDM_LANG = en_US
- 
 # environment
- 
 VTE_VERSION = 6003
- 
 # environment
- 
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
- 
 # environment
- 
 JOURNAL_STREAM = 8:63489
- 
 # environment
- 
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
- 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 283)
- 
 OP_WORK_DIR = $(OP_DIR)/workdir
- 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 1)
- 
 MAKEFILE_LIST :=  /home/user/Documents/projects/operator/Makefile
- 
 # automatic
- 
 @F = $(notdir $@)
- 
 # environment
- 
 IM_CONFIG_PHASE = 1
- 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 1)
- 
 DEBUG = no
- 
 # 'override' directive
- 
 GNUMAKEFLAGS := 
- 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 5)
- 
 SOURCES = buildinfo.cpp main.cpp operator.cpp runtimestability.cpp config/config.cpp md5/md5.cpp common/misc.cpp common/crc32.cpp common/base64.cpp common/macaddr.cpp common/ipaddr.cpp common/watch/objwatch.cpp common/watch/debug.cpp common/uri.cpp util/hexdump.cpp util/str.cpp util/fs.cpp curlhelper/curlhelper.cpp rpc/rpc.cpp rpc/rpcserver.cpp state/state.cpp state/operatorstate.cpp state/startstate.cpp state/scriptselectionstate.cpp state/executionstate.cpp state/instructionstate.cpp state/configstate.cpp state/logstate.cpp state/problemreportstate.cpp state/noticestate.cpp state/component/actions.cpp state/component/as/asactions.cpp state/component/status.cpp state/component/as/asstatus.cpp state/component/console.cpp state/component/as/asconsole.cpp view/binding.cpp product/productmisc.cpp product/checkpoints.cpp product/label.cpp product/scripts.cpp product/scriptsection.cpp product/productparameters.cpp product/hardconfig.cpp product/templatecompiler/labeltemplatecompiler.cpp printer/printer.cpp printer/baseprinter.cpp printer/types/tsplprinter.cpp printer/types/dplprinter.cpp printer/types/zplprinter.cpp printer/printerdetector.cpp filestore/cachedb.cpp filestore/filestore.cpp filestore/as/asfilestore.cpp vxi11/vxi11.cpp dhcpserver/dhcpserver.cpp dhcpserver/as/asdhcpserver.cpp tftpserver/tftpserver.cpp tftpserver/as/astftpserver.cpp problemreporter/problemreporter.cpp problemreporter/problemreport.cpp problemreporter/as/asproblemreport.cpp managementservice/managementservice.cpp managementservice/connection.cpp asproxy/asproxy.cpp asproxy/asscript.cpp asproxy/asoperator.cpp asproxy/asproductmisc.cpp asproxy/ascheckpoints.cpp asproxy/asjson.cpp asproxy/asbuffer.cpp asproxy/asmisc.cpp asproxy/asmac.cpp asproxy/astime.cpp asproxy/asvxi11/asvxi11.cpp asproxy/asserialportio.cpp asproxy/asusb.cpp asproxy/asusbdut.cpp asproxy/aspci.cpp asproxy/asping.cpp asproxy/asmemmap.cpp asproxy/asneighbours.cpp asproxy/asinterfaces.cpp asproxy/ashardconfig.cpp asproxy/queryobj.cpp asproxy/assimpleclient/assimpleclient.cpp asproxy/aslabel.cpp asproxy/asrpc/asrpc.cpp asproxy/asrpc/asrpcserver.cpp asproxy/asnetworkconfig.cpp asproxy/asrandom.cpp asproxy/astext.cpp
- 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 144)
- 
 CXXFLAGS = -fno-strict-aliasing -Wno-strict-aliasing -Wno-pmf-conversions
- 
 # environment
- 
 MAKELEVEL := 0
- 
 # environment
- 
 XDG_DATA_DIRS = /usr/share/ubuntu:/home/user/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
- 
 # environment
- 
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
- 
 # environment
- 
 _ = /usr/bin/code
- 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 226)
- 
 CXXFLAGS_ubuntu_bionic = -D_UBUNTU_BIONIC_ `pkg-config webkitgtk-3.0 --cflags`
- 
 # environment
- 
 MANAGERPID = 1755
- 
 # environment
- 
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 LC_NAME = lv_LV.UTF-8
 # environment
-VSCODE_CWD = /home/user/Documents/projects/mactelnet
+VSCODE_CWD = /home/user/Documents/projects/mac_telnet
 # environment
 XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
 # default
@@ -216,7 +134,7 @@ TMUX_PANE = %4
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 258)
 SOURCES_ros = filestore/ftp/ftpclient_ros.cpp filestore/productstat.cpp
 # environment
-PWD = /home/user/Documents/projects/mactelnet
+PWD = /home/user/Documents/projects/mac_telnet
 # environment
 QT_QPA_PLATFORMTHEME = qt5ct
 # default
@@ -353,55 +271,104 @@ LC_ALL = C
 CONDA_PYTHON_EXE = /home/user/miniconda3/bin/python
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 149)
 LIBS = -Wl,--no-as-needed -L./as_source/build/$(PLATFORM)/$(ARCH) -las -L./lib/libevent/build/$(PLATFORM)/$(ARCH) -levent -L./lib/liblg/build/$(PLATFORM)/$(ARCH) -llg -L./lib/libltc/build/$(PLATFORM)/$(ARCH) -lltc -L./lib/libdmtx/dist/$(PLATFORM)/$(ARCH)/lib -ldmtx -L./lib/libftdi1/build/$(PLATFORM)/$(ARCH) -lftdi1 -L./lib/libusb/build/$(PLATFORM)/$(ARCH) -lusb -L./lib/libqr/build/$(PLATFORM)/$(ARCH) -lqr -L./lib/libhttpserver/build/$(PLATFORM)/$(ARCH) -lhttpserver -L./lib/libopencv/dist/$(PLATFORM)/$(ARCH)/lib `make --no-print-directory -s -C lib/libopencv gen-lflags` -L./lib/libmodbus/dist/$(PLATFORM)/$(ARCH)/lib -lmodbus -L./lib/libbotan/dist/$(PLATFORM)/$(ARCH)/lib -lbotan-2
+ 
 # automatic
+ 
 ^F = $(notdir $^)
+ 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 169)
+ 
 DEPS = as_source lib/libevent lib/liblg lib/libltc lib/libdmtx lib/libftdi1 lib/libusb lib/libhttpserver lib/libopencv lib/libmodbus lib/libqr lib/libbotan
+ 
 # default
+ 
 SUFFIXES := 
+ 
 # environment
+ 
 _CE_M = 
+ 
 # environment
+ 
 CHROME_DESKTOP = code-url-handler.desktop
+ 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 247)
+ 
 LIBS_ubuntu_bionic = `pkg-config webkitgtk-3.0 --libs`
+ 
 # makefile (from '/home/user/Documents/projects/operator/Makefile', line 279)
+ 
 OP_DIR = $(BASEPATH)
+ 
 # default
+ 
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+ 
 # environment
+ 
 LC_IDENTIFICATION = lv_LV.UTF-8
+ 
 # default
+ 
 .RECIPEPREFIX := 
+ 
 # environment
+ 
 LC_ADDRESS = lv_LV.UTF-8
+ 
 # environment
+ 
 LANG = C
+ 
 # environment
+ 
 TERM = screen
+ 
 # environment
+ 
 TERMINATOR_DBUS_NAME = net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873
+ 
 # environment
+ 
 VSCODE_PID = 7603
+ 
 # environment
+ 
 _CE_CONDA = 
+ 
 # environment
+ 
 TERMINATOR_UUID = urn:uuid:3ea88710-5b68-4e65-8c52-c16496560852
+ 
 # variable set hash-table stats:
+ 
 # Load=146/1024=14%, Rehash=0, Collisions=15/173=9%
+ 
 
+ 
 # Pattern-specific Variable Values
+ 
 
+ 
 # No pattern-specific variable values.
+ 
 
 # Directories
+ 
 
+ 
 
+ 
 # No files, no impossibilities in 0 directories.
+ 
 
+ 
 # Implicit Rules
+ 
 
+ 
 # No implicit rules.
+ 
 
 # Files
 
@@ -442,7 +409,6 @@ debugrun: dist-install update-workdir
 		LD_LIBRARY_PATH=$(OP_DIST_DIR)/lib:$LD_LIBRARY_PATH \
 			OP_DIST_DIR=$(OP_DIST_DIR) \
 			gdb $(OP_DIST_DIR)/bin/operator -ex run
- 
 
 leakcheck: dist-install update-workdir
 #  Implicit rule search has not been done.
@@ -595,6 +561,6 @@ clean-workdir:
 # strcache performance: lookups = 63 / hit rate = 65%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/63=0%
-# Finished Make data base on Mon Mar  6 17:49:39 2023
+# Finished Make data base on Tue Mar  7 14:53:38 2023
 
  

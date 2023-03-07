@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "C++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/mac_telnet",
+            "args": ["18:FD:74:7B:11:7F"],
+            "cwd": "${workspaceFolder}"
+        },
+    ]
+}
